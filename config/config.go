@@ -11,13 +11,24 @@ var (
 		"/home/opc/prj/mcp-server-openerp",
 		"/home/opc/prj/front-openerp",
 		"/home/opc/prj/etoolstec-site",
+		"/home/opc/prj/gokit",
 		"/home/opc/prj",
+		"/home/opc/prj-grok/mcp-server-openerp",
+		"/home/opc/prj-grok/front-openerp",
+		"/home/opc/prj-grok/etoolstec-site",
+		"/home/opc/prj-grok/gokit",
+		"/home/opc/prj-grok",
 		"/home/opc",
 	}
 	AllowedRootsModify = []string{
 		"/home/opc/prj/mcp-server-openerp",
 		"/home/opc/prj/front-openerp",
 		"/home/opc/prj/etoolstec-site",
+		"/home/opc/prj/gokit",
+		"/home/opc/prj-grok/mcp-server-openerp",
+		"/home/opc/prj-grok/front-openerp",
+		"/home/opc/prj-grok/etoolstec-site",
+		"/home/opc/prj-grok/gokit",
 	}
 	BearerToken string
 	RootPath    string
