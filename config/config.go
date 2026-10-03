@@ -12,11 +12,15 @@ var (
 		"/home/opc/prj/front-openerp",
 		"/home/opc/prj/etoolstec-site",
 		"/home/opc/prj/gokit",
-		"/home/opc/prj",
+		"/home/opc/prj/jipeioxoto",
+		"/home/opc/prj/issues",
+		"/home/opc/prj/deepseek-autocode",
+		"/home/opc/prj/openerp-wp-teste",
 		"/home/opc/prj-grok/mcp-server-openerp",
 		"/home/opc/prj-grok/front-openerp",
 		"/home/opc/prj-grok/etoolstec-site",
 		"/home/opc/prj-grok/gokit",
+		"/home/opc/prj-grok/openerp-wp-teste",
 		"/home/opc/prj-grok",
 		"/home/opc",
 	}
@@ -24,11 +28,16 @@ var (
 		"/home/opc/prj/mcp-server-openerp",
 		"/home/opc/prj/front-openerp",
 		"/home/opc/prj/etoolstec-site",
+		"/home/opc/prj/jipeioxoto",
+		"/home/opc/prj/issues",
+		"/home/opc/prj/deepseek-autocode",
+		"/home/opc/prj/openerp-wp-teste",
 		"/home/opc/prj/gokit",
 		"/home/opc/prj-grok/mcp-server-openerp",
 		"/home/opc/prj-grok/front-openerp",
 		"/home/opc/prj-grok/etoolstec-site",
 		"/home/opc/prj-grok/gokit",
+		"/home/opc/prj-grok/openerp-wp-teste",
 	}
 	BearerToken string
 	RootPath    string

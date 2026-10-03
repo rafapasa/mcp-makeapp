@@ -21,14 +21,6 @@ MCP_TOKEN=$(grep MCP_TOKEN "$TOKEN_FILE" | cut -d= -f2)
 cd "$PROJECT_DIR"
 go build -o "$BINARY_NAME" .
 
-cat > "$CADDYFILE" <<EOF
-{
-    email rafael@etoolstec.com.br
-}
-file.etoolstec.com.br {
-    reverse_proxy localhost:8001
-}
-EOF
 
 # UM servidor só, root em /home/opc/prj já libera tudo (front-openerp tá dentro)
 nohup ./"$BINARY_NAME" --http :8001 --root /home/opc/prj --token "$MCP_TOKEN" > /tmp/mcp.log 2>&1 &
